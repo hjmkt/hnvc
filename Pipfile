@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+sklearn = "*"
+tensorflow-gpu = "==2.9.2"
+optax = "*"
+flax = "*"
+tensorboard = "*"
+tqdm = "*"
+opencv-python = "*"
+jax = {extras = ["cuda11_cudnn82"], version = "*"}
+jaxlib = {extras = ["cuda11_cudnn82"], version = "*"}
+clu = "*"
+pillow-avif-plugin = "*"
+pillow = "*"
+dm-pix = "*"
+jax-models = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
